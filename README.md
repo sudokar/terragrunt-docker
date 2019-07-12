@@ -1,6 +1,6 @@
 # terragrunt-docker
 
-> Built for CI environments
+> Built for CI/CD environments
 
 Useful for running terragrunt commands in CI/CD environment
 
@@ -8,7 +8,7 @@ Useful for running terragrunt commands in CI/CD environment
 
 ```
 $ docker build -t sudokar/terragrunt .
-$ docker push sudokar/terragrunt-docker
+$ docker push sudokar/terragrunt
 ```
 
 ## Author
